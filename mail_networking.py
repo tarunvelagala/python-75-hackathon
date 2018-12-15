@@ -8,7 +8,7 @@ toaddr = 'tsectioncse@gmail.com'
 msg['From'] = fromaddr
 msg['To'] = toaddr
 msg['Subject'] = "Hello"
-server = smtplib.SMTP('smtp.gmaail.com', 587)
+server = smtplib.SMTP('smtp.gmail.com', 587)
 server.starttls()
 server.login(fromaddr, "mypassword")
 server.send_message(msg)
