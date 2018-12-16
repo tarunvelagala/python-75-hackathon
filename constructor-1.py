@@ -1,4 +1,4 @@
-#parametrized constructor:
+#parametrized constructor
 
 class student:
     def __init__(self,n,r,id,lst):
