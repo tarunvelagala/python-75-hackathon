@@ -1,4 +1,4 @@
-#empty dictionary
+#empty dictionary:
 my_dict1={}
 print(type(my_dict1))
 
