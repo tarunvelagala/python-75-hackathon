@@ -1,4 +1,4 @@
-#Range in step
+#Range
 
 r = range(0,10,2)
 
