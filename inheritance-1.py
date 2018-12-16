@@ -1,3 +1,4 @@
+# inheritance program
 class person:
     def __init__(self):
         self.name=input("name")
