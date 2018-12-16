@@ -2,7 +2,6 @@
 
 class sample:
     x = 10
-
     @classmethod
     def modify(cls):
         cls.x+=1
