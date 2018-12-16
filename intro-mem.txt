@@ -1,0 +1,9 @@
+MEMORY MANAGEMENT BY PVM:
+
+        Memory allocation and deallocation are done by PVM during runtime.Entire memory is allocated on heap.
+
+We know that actual memory (RAM)for any program is allocated by the underlying operating system.
+On the top of the operating system,a raw meory allocator oversees whether enough memory is available to it for storing the objects(ex:integers,functions,lists,modules etc).
+On the top of the raw memory allocator,there are several object-specific allocators operate on the same heap.
+For example,an integer number should be stored in tuples and dictionaries,they should be stored differently.
+These issues are taken care by OBJECT SPECIFIC MEMORY ALLOCATORS.
