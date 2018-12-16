@@ -10,7 +10,7 @@ y=df['sal']
 
 plt.bar(x ,y,color='black')
 plt.xlabel("employee id no's")
-#Text(0.5,0,"employee id nos")
+#Text(0.5,0,"employee id numbers")
 plt.ylabel("employee salaries")
 plt.title("talent accurate company")
 plt.legend()
