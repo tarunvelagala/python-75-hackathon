@@ -1,7 +1,7 @@
-#Logging the Exceptions, errors and warnings
+# Logging the Exceptions, errors and warnings
 
 import logging
-logging.basicConfig(filename = 'log.txt', level = logging.WARNING)
+logging.basicConfig(filename='log.txt', level=logging.WARNING)
 
 try:
     a = int(input('Enter a number:'))
