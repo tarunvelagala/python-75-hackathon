@@ -1,4 +1,4 @@
-#Random choice
+# Random choice
 
 import random as r
 
