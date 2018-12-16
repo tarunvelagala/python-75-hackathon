@@ -8,7 +8,7 @@ class sub1(main):
         print("area of rectangle:",x*y)
 
 class sub2(main):
-    def calculate(selfself,x,y):
+    def calculate(self,x,y):
         print("area of traingle",0.5*x*y)
 
 s1=sub1()
